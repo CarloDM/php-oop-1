@@ -30,11 +30,12 @@ class Movie {
     $this->direction = $_direction; 
   }
   public function Get_all_info(){
+    
     return 
     '<h4>' . $this->title  . '</h4>' .
     '<ul>'.
     '<li>' . $this->direction . '</li>' . 
-    '<li>' . $this->genre . '</li>' . 
+    '<li>' . $this->genre[0] . '</li>' . 
     '<li>' . $this->duration . '  ' . 'minuti' . '</li>' .
     '</ul>';
   }
