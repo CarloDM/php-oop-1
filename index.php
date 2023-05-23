@@ -4,6 +4,7 @@ $arrayMovie = [
   $movie1, $movie2
 ]
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -1,13 +1,4 @@
 <?php 
-class Miaclasse {
-  public $nome;
-  public $cosa;
-  public function __construct($_nome, $_cosa = 'niente')
-  {
-    $this->nome = $_nome; 
-    $this->cosa = $_cosa; 
-  }
-};
 /*
 Oggi pomeriggio ripassate i primi concetti di classe, variabili e metodi d’istanza che abbiamo visto stamattina e create un file `index.php` in cui:
  - è definita una **classe ‘Movie’**
@@ -30,7 +21,7 @@ class Movie {
     $this->direction = $_direction; 
   }
   public function Get_all_info(){
-    
+
     return 
     '<h4>' . $this->title  . '</h4>' .
     '<ul>'.
